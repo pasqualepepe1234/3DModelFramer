@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 110046,
+            "type": "VEC3",
+            "max": [
+                0.9968820214271545,
+                0.6793130040168762,
+                0.5717160105705261
+            ],
+            "min": [
+                -0.9972599744796753,
+                -0.6851019859313965,
+                -0.570747971534729
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 110046,
+            "type": "VEC3",
+            "max": [
+                0.9998906254768372,
+                0.9998362064361572,
+                0.9999748468399048
+            ],
+            "min": [
+                -0.9999130964279175,
+                -0.9999522566795349,
+                -0.9999990463256836
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 110046,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.00010335445404052734,
+                0.002681732177734375
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 559926,
+            "type": "SCALAR",
+            "max": [
+                110045
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 5761176,
+            "uri": "The_Majestic_Blue_Dra_0520114224_texture_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1320552,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1320552,
+            "byteLength": 1320552,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2641104,
+            "byteLength": 880368,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3521472,
+            "byteLength": 2239704,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "The_Majestic_Blue_Dra_0520114224_texture",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
